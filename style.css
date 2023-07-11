@@ -58,6 +58,8 @@ p {
   margin: 10px 22px;
 }
 .form label {
+  display: flex;
+  justify-content: space-between;
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 8px;
@@ -242,5 +244,12 @@ p {
   }
 }
 .turnoff {
+  display: none;
+}
+
+.validEmail {
+  color: hsl(4, 100%, 67%);
+}
+.valid {
   display: none;
 }
