@@ -34,4 +34,4 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ## Author
 
-- Frontend Mentor - [@mslysz]
+- Frontend Mentor - [@mslysz](https://www.frontendmentor.io/profile/mslysz)
