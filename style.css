@@ -241,3 +241,6 @@ p {
     height: 58px;
   }
 }
+.turnoff {
+  display: none;
+}

@@ -47,9 +47,17 @@
           much more!
         </p>
         <form class="form" action="">
-          <label for="email">Email address <span class="validEmail active2">Valid email required</span></label>
-          
-          <input class="text active" type="text" placeholder="email@company.com" />
+          <label for="email"
+            >Email address <span class="validEmail"></span
+          ></label>
+
+          <input
+            class="text"
+            type="email"
+            placeholder="email@company.com"
+            oninput="validateEmail()"
+            onkeyup="validateEmail()"
+          />
           <input
             class="submitBtn"
             type="submit"
@@ -57,19 +65,17 @@
           />
         </form>
       </div>
-      
-
-    <!-- <div class="msgContainer">
-        <img class="iconBig" src="/assets/images/icon-success.svg" alt="icon" />
-        <h2>Thanks for subscribing!</h2>
-        <p>
-          A confirmation email has been sent to
-          <span class="emailTxt">ash@loremcompany.com</span>. Please open it and
-          click the button inside to confirm your subscription.
-        </p>
-        <button class="dismissBtn">Dismiss message</button>
-      </div>
-    </div> -->
+    </div>
+    <div class="msgContainer turnoff">
+      <img class="iconBig" src="/assets/images/icon-success.svg" alt="icon" />
+      <h2>Thanks for subscribing!</h2>
+      <p>
+        A confirmation email has been sent to
+        <span class="emailTxt"></span>. Please open it and click the button
+        inside to confirm your subscription.
+      </p>
+      <button class="dismissBtn">Dismiss message</button>
+    </div>
 
     <script src="main.js"></script>
   </body>
