@@ -18,10 +18,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 ![](./images/screenshot1.jpg)
 ![](./images/screenshot2mobile.jpg)
 
-### Links
-
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ## My process
 
 ### Built with
